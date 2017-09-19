@@ -15,9 +15,7 @@
     "authors": [
         {
             "name": "dkepov",
-            "email": "dkepov@mail.ru",
-            "homepage": "https://dkepov.ru",
-            "role": "owner"
+            "email": "dkepov@mail.ru"
         }
     ],
     "require": {
@@ -29,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dkepov\\Jazzpicon\\": "src"
+            "Dkepov\\Jazzpicon\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dkepov\\Jazzpicon\\": "tests"
+            "Dkepov\\Jazzpicon\\Tests\\": "tests/"
         }
     },
     "scripts": {
